@@ -1,0 +1,36 @@
+from turtle import *
+screensize(800,700)
+t = Turtle()
+t.speed(50)
+pensize(5)
+t.color('blue')
+t.shape('circle')#we can use circle 'not an issue'
+t.shapesize(1,1,150)
+
+color('white')
+pensize(2)
+penup()
+goto(-34,-40)
+pendown()
+
+begin_fill()#for filled white color___
+fd(50)
+circle(15,90)
+fd(15)
+rt(135)
+fd(25)
+circle(5,135)
+fd(45)
+circle(5,135)
+fd(25)
+rt(135)
+fd(15)
+circle(15,90)
+fd(50)
+circle(15,90)
+fd(47)
+circle(15,90)
+end_fill()
+
+ht()
+done()

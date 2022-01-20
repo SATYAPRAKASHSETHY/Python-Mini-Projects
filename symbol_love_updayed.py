@@ -1,0 +1,56 @@
+from turtle import *
+screensize(800,600)
+speed(50)
+ht()
+fillcolor('red')
+begin_fill()
+pensize(3)
+lt(50)
+fd(133)#265
+circle(50,200)#circle(100,200)
+rt(140)
+circle(50,200)#circle(100,200)
+fd(133)#265
+end_fill()
+penup()
+goto(70,50)
+pendown()
+
+rt(40)
+fd(10)
+lt(60)
+fd(25)
+lt(120)
+fd(10)
+rt(60)
+fd(10)
+lt(120)
+fd(25)
+lt(60)
+fd(10)
+
+rt(60)
+fd(230)#arrow inside heart
+
+def left_arrows():
+	lt(125)
+	fd(15)
+	bk(15)
+	rt(125)
+	bk(10)
+left_arrows()	
+left_arrows()
+left_arrows()
+fd(30)
+def right_arrows():
+	rt(125)
+	fd(15)
+	bk(15)
+	lt(125)
+	bk(10)
+right_arrows()
+right_arrows()
+right_arrows()	
+bk(10)
+
+mainloop()
